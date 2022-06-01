@@ -37,6 +37,8 @@ start_phased_restart ()
 {
   echo "Starting phased restart"
   cd_to_current_release
+  bundle config set deployment 'true'
+  bundle install
   bundle exec pumactl -F $RELEASE_ROOT/current/config/puma.rb phased-restart || exit
 }
 
