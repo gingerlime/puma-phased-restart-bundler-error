@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/gingerlime/puma.git
-  revision: fb10563f02098ddaa3310f66273cf236421eb85d
+  revision: 7e7e00ce4b47bfd22fff559ceddbb16b64c94e58
   branch: extra_log
   specs:
     puma (5.6.4)
