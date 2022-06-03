@@ -71,8 +71,8 @@ main ()
 
   create_release_and_update_current_symlink
   start_phased_restart
-  delete_old_releases
   test_connection
+  delete_old_releases
 
   create_release_and_update_current_symlink
   start_phased_restart
